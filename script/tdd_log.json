@@ -282,9 +282,47 @@
     "testId": 11
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9c7e31a9bdc5f05dbc48a69c8d75f17224960b0e",
     "commitName": "feat: calcular descuento aplicado a precio neto mayor igual a 3000 y menor a 7000",
     "commitTimestamp": 1788746853813,
     "testId": 11
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788746886875,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788746917234,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 13,
+    "failedTests": 1,
+    "numTotalTests": 14,
+    "timestamp": 1788746980059,
+    "success": false,
+    "testId": 12
+  },
+  {
+    "numPassedTests": 14,
+    "failedTests": 0,
+    "numTotalTests": 14,
+    "timestamp": 1788747018414,
+    "success": true,
+    "testId": 12
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento aplicado a precio neto mayor igual a 7000 y menor a 10000",
+    "commitTimestamp": 1788747049907,
+    "testId": 12
   }
 ]
