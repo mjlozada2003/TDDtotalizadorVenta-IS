@@ -18,7 +18,7 @@ function impuestoAplicado(codigo, precioNeto) {
 }
 
 function descuentoAplicado(precioNeto) {
-    if(precioNeto >= 1000 && pecioNeto < 3000)return precioNeto * 0.03;
+    if(precioNeto >= 1000 && precioNeto < 3000)return precioNeto * 0.03;
     else return 0;
 }
 
