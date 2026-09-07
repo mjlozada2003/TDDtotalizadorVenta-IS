@@ -38,9 +38,23 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "32cd97c11892c8604e3868578ef0d2bbde7f1c39",
     "commitName": "test: cantidad de productos 0",
     "commitTimestamp": 1788744834062,
     "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1788744859603,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: precio de productos 0",
+    "commitTimestamp": 1788744959606,
+    "testId": 2
   }
 ]
