@@ -148,9 +148,31 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "39813825b025fdec8f91cdfd145b82b458b9bf2c",
     "commitName": "feat: calcular impuesto NV aplicado a precio neto",
     "commitTimestamp": 1788745930348,
     "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 1,
+    "numTotalTests": 9,
+    "timestamp": 1788745966296,
+    "success": false,
+    "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1788745989303,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto AL aplicado a precio neto",
+    "commitTimestamp": 1788745999362,
+    "testId": 7
   }
 ]
