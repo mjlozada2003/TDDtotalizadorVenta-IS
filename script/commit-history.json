@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "9f8de546013ff0237a4bb06a7089a4d9f8fb9a91",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T01:50:36.000Z",
       "message": "feat: calcular impuesto UT aplicado a precio neto",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/9f8de546013ff0237a4bb06a7089a4d9f8fb9a91"
     },
     "stats": {
       "total": 5,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 7,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T01:52:09.000Z",
+      "message": "feat: calcular impuesto NV aplicado a precio neto",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 8,
     "failed_tests": 0,
     "conclusion": "success"
   }

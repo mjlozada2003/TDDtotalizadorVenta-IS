@@ -126,9 +126,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "9f8de546013ff0237a4bb06a7089a4d9f8fb9a91",
     "commitName": "feat: calcular impuesto UT aplicado a precio neto",
     "commitTimestamp": 1788745838490,
     "testId": 5
+  },
+  {
+    "numPassedTests": 7,
+    "failedTests": 1,
+    "numTotalTests": 8,
+    "timestamp": 1788745894596,
+    "success": false,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1788745919650,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto NV aplicado a precio neto",
+    "commitTimestamp": 1788745930348,
+    "testId": 6
   }
 ]

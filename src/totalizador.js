@@ -5,6 +5,7 @@ function calcularPrecioNeto(cantidad, precioUnitario){
 function impuestoAplicado(codigo, precioNeto) {
     if(codigo === "TX") return precioNeto * 0.0625;
     if(codigo === "UT") return precioNeto * 0.0665;
+    if(codigo === "NV") return precioNeto * 0.08;
 }
 
 export { calcularPrecioNeto, impuestoAplicado };
