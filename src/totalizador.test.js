@@ -17,6 +17,10 @@ describe("Totalizador", () => {
   it("deberia mostrar el impuesto aplicado al precio neto", () => {
     expect(impuestoAplicado("TX", 60)).toEqual(3.75);
   });
+  it("deberia mostrar el impuesto aplicado al precio neto", () =>{
+    expect(impuestoAplicado("UT", 60)).toEqual(3.99);
+  });
+
 });
 
 
