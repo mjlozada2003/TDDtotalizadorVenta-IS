@@ -1,0 +1,32 @@
+[
+  {
+    "numPassedTests": 1,
+    "failedTests": 1,
+    "numTotalTests": 2,
+    "timestamp": 1788744554866,
+    "success": false,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788744599856,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "numPassedTests": 2,
+    "failedTests": 0,
+    "numTotalTests": 2,
+    "timestamp": 1788744663281,
+    "success": true,
+    "testId": 0
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calucular precio neto de productos",
+    "commitTimestamp": 1788744704416,
+    "testId": 0
+  }
+]
