@@ -247,12 +247,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "c8929454b9f2eeb51260b51ec3317805d70949e0",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T02:12:58.000Z",
       "message": "feat: calcular descuento aplicado a precio neto mayor igual a 10000 y menor a 30000",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/c8929454b9f2eeb51260b51ec3317805d70949e0"
     },
     "stats": {
       "total": 6,
@@ -262,6 +262,25 @@
     },
     "coverage": 67.74,
     "test_count": 15,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T02:14:24.000Z",
+      "message": "feat: calcular descuento aplicado a precio neto mayor igual a 30000",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 69.7,
+    "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
   }
