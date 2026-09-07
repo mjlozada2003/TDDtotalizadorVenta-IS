@@ -536,9 +536,47 @@
     "testId": 20
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7d792b44207ad3fcd37f80a1fa80a025f1b1ddde",
     "commitName": "feat: verificar cantidad de items positiva",
     "commitTimestamp": 1788750688837,
     "testId": 20
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 1,
+    "numTotalTests": 21,
+    "timestamp": 1788750743617,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 2,
+    "numTotalTests": 21,
+    "timestamp": 1788750791611,
+    "success": false,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788750852477,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 0,
+    "numTotalTests": 21,
+    "timestamp": 1788751016246,
+    "success": true,
+    "testId": 21
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: verificar cantidad de items correcta",
+    "commitTimestamp": 1788751077995,
+    "testId": 21
   }
 ]
