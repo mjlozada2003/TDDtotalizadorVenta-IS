@@ -640,9 +640,15 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "94cc0b3249cd43de3391c1bb0b829fa340f73c2f",
     "commitName": "feat: verificar que el precio sea valido",
     "commitTimestamp": 1788751513003,
     "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: interfaz del totalizador",
+    "commitTimestamp": 1788753625423,
+    "testId": 25
   }
 ]

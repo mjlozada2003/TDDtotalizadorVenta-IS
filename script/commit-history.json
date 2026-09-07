@@ -456,17 +456,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "94cc0b3249cd43de3391c1bb0b829fa340f73c2f",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T03:25:11.000Z",
       "message": "feat: verificar que el precio sea valido",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/94cc0b3249cd43de3391c1bb0b829fa340f73c2f"
     },
     "stats": {
       "total": 6,
       "additions": 5,
       "deletions": 1,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T04:00:23.000Z",
+      "message": "feat: interfaz del totalizador",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 53,
+      "additions": 36,
+      "deletions": 17,
       "date": "2026-09-07"
     },
     "coverage": 100,
