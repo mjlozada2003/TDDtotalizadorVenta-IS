@@ -364,55 +364,15 @@
     "testId": 14
   },
   {
-    "commitId": "8dadb5f1d6e874c617f3cd839d12db4ad4cd5045",
+    "commitId": "e80a69efcc4fade6c5ed230d9ee28f7a21e68ce1",
     "commitName": "feat: calcular descuento aplicado a precio neto mayor igual a 30000",
     "commitTimestamp": 1788747265926,
     "testId": 14
   },
   {
-    "numPassedTests": 14,
-    "failedTests": 2,
-    "numTotalTests": 16,
-    "timestamp": 1788747701061,
-    "success": false,
-    "testId": 15
-  },
-  {
-    "numPassedTests": 16,
-    "failedTests": 0,
-    "numTotalTests": 16,
-    "timestamp": 1788747769365,
-    "success": true,
-    "testId": 15
-  },
-  {
-    "numPassedTests": 15,
-    "failedTests": 1,
-    "numTotalTests": 16,
-    "timestamp": 1788747854628,
-    "success": false,
-    "testId": 15
-  },
-  {
-    "numPassedTests": 16,
-    "failedTests": 0,
-    "numTotalTests": 16,
-    "timestamp": 1788747874250,
-    "success": true,
-    "testId": 15
-  },
-  {
-    "numPassedTests": 16,
-    "failedTests": 0,
-    "numTotalTests": 16,
-    "timestamp": 1788747980795,
-    "success": true,
-    "testId": 15
-  },
-  {
     "commitId": "HEAD",
-    "commitName": "fix: complementar funciones",
-    "commitTimestamp": 1788748051364,
+    "commitName": "Revert \"fix: complementar funciones\"\n\nThis reverts commit e80a69efcc4fade6c5ed230d9ee28f7a21e68ce1.",
+    "commitTimestamp": 1788749350365,
     "testId": 15
   }
 ]

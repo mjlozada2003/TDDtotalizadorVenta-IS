@@ -266,12 +266,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "8dadb5f1d6e874c617f3cd839d12db4ad4cd5045",
+    "sha": "e80a69efcc4fade6c5ed230d9ee28f7a21e68ce1",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T02:14:24.000Z",
       "message": "feat: calcular descuento aplicado a precio neto mayor igual a 30000",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/8dadb5f1d6e874c617f3cd839d12db4ad4cd5045"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/e80a69efcc4fade6c5ed230d9ee28f7a21e68ce1"
     },
     "stats": {
       "total": 4,
@@ -288,19 +288,19 @@
     "sha": "HEAD",
     "author": "Maria Lozada",
     "commit": {
-      "date": "2026-09-07T02:27:30.000Z",
-      "message": "fix: complementar funciones",
+      "date": "2026-09-07T02:47:53.000Z",
+      "message": "Revert \"fix: complementar funciones\"\n\nThis reverts commit e80a69efcc4fade6c5ed230d9ee28f7a21e68ce1.",
       "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
     },
     "stats": {
       "total": 51,
-      "additions": 22,
-      "deletions": 29,
+      "additions": 29,
+      "deletions": 22,
       "date": "2026-09-07"
     },
-    "coverage": 100,
+    "coverage": 69.7,
     "test_count": 16,
-    "failed_tests": 5,
-    "conclusion": "failure"
+    "failed_tests": 0,
+    "conclusion": "success"
   }
 ]
