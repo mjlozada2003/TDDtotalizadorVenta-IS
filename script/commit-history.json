@@ -323,12 +323,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "8536e2ca8e48aa0de6dd9fa18ffd3e8d4759cd8c",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T02:59:06.000Z",
       "message": "feat: calcular precio total con impuestos y descuentos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/8536e2ca8e48aa0de6dd9fa18ffd3e8d4759cd8c"
     },
     "stats": {
       "total": 15,
@@ -338,6 +338,25 @@
     },
     "coverage": 100,
     "test_count": 17,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T03:00:38.000Z",
+      "message": "test: calcular precio total",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 18,
     "failed_tests": 0,
     "conclusion": "success"
   }

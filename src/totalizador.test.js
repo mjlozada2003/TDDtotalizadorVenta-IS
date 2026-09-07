@@ -52,6 +52,9 @@ describe("Totalizador", () => {
   it("deberia ver el precio total con impuestos y descuentos aplicados", () =>{
     expect(calcularPrecioTotal(20,3,"TX")).toEqual(63.75);
   });
+  it("deberia ver el precio total con impuestos y descuentos aplicados", () =>{
+    expect(calcularPrecioTotal(0,0,"UT")).toEqual(0);
+  });
 });
 
 

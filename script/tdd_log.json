@@ -454,9 +454,23 @@
     "testId": 17
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8536e2ca8e48aa0de6dd9fa18ffd3e8d4759cd8c",
     "commitName": "feat: calcular precio total con impuestos y descuentos",
     "commitTimestamp": 1788749948039,
     "testId": 17
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 0,
+    "numTotalTests": 18,
+    "timestamp": 1788750008507,
+    "success": true,
+    "testId": 18
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: calcular precio total",
+    "commitTimestamp": 1788750039908,
+    "testId": 18
   }
 ]
