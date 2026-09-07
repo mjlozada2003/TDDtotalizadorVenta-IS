@@ -1,6 +1,9 @@
 function calcularPrecioNeto(cantidad, precioUnitario){
   return cantidad * precioUnitario;
 }
+function verificarCodigo(codigo) {
+    if(codigo === "") return "Seleccione un código de estado válido";
+}
 
 function impuestoAplicado(codigo, precioNeto) {
     if(codigo === "TX") return "TX(6.25%): " + precioNeto * 0.0625;
@@ -26,4 +29,4 @@ function calcularPrecioTotal(cantidad, precioUnitario, codigo) {
   return precioNeto + parseFloat(impuesto.split(": ")[1]) - parseFloat(descuento.split(": ")[1]);
 }
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal };
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo };

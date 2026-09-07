@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal} from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -54,6 +54,10 @@ describe("Totalizador", () => {
   });
   it("deberia ver el precio total con impuestos y descuentos aplicados", () =>{
     expect(calcularPrecioTotal(0,0,"UT")).toEqual(0);
+  });
+
+  it("deberia mostrar un mensaje de error si el codigo de estado no es seleccionado", () =>{
+    expect(verificarCodigo("")).toEqual("Seleccione un código de estado válido");
   });
 });
 

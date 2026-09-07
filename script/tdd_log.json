@@ -468,9 +468,55 @@
     "testId": 18
   },
   {
-    "commitId": "HEAD",
+    "commitId": "2940043abf085a6cb1559be3cf94b0f462d32193",
     "commitName": "test: calcular precio total",
     "commitTimestamp": 1788750039908,
     "testId": 18
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788750064628,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788750078459,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 18,
+    "failedTests": 1,
+    "numTotalTests": 19,
+    "timestamp": 1788750363706,
+    "success": false,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788750406006,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 0,
+    "numTotalTests": 19,
+    "timestamp": 1788750438364,
+    "success": true,
+    "testId": 19
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: verificar codigo de estado valido",
+    "commitTimestamp": 1788750545894,
+    "testId": 19
   }
 ]
