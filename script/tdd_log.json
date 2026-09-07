@@ -66,9 +66,47 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "62e5c822eab282c2a3b1c59cef779099c70c5d7a",
     "commitName": "test: precio de productos decimal",
     "commitTimestamp": 1788745101086,
     "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 1,
+    "numTotalTests": 6,
+    "timestamp": 1788745370598,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788745494123,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 5,
+    "numTotalTests": 6,
+    "timestamp": 1788745543291,
+    "success": false,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1788745597809,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto aplicado a precio neto",
+    "commitTimestamp": 1788745654599,
+    "testId": 4
   }
 ]

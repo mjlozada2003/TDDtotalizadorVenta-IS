@@ -1,4 +1,4 @@
-import calcularPrecioNeto from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -12,7 +12,12 @@ describe("Totalizador", () => {
   });
   it("debería calcular el precio neto con decimales", () => {
     expect(calcularPrecioNeto(2, 3.2)).toEqual(6.4);
-  })
+  });
+
+  it("deberia mostrar el impuesto aplicado al precio neto", () => {
+    expect(impuestoAplicado("TX", 60)).toEqual(3.75);
+  });
 });
+
 
 
