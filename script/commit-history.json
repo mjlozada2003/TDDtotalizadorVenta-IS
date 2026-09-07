@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "8f4d4c3b319185b28b38b54cab1a1195f27e7d9d",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T01:31:42.000Z",
       "message": "feat: calucular precio neto de productos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/8f4d4c3b319185b28b38b54cab1a1195f27e7d9d"
     },
     "stats": {
       "total": 14,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T01:33:52.000Z",
+      "message": "test: cantidad de productos 0",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 3,
+      "additions": 3,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }

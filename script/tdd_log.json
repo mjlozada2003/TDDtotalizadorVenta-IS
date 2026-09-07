@@ -24,9 +24,23 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "8f4d4c3b319185b28b38b54cab1a1195f27e7d9d",
     "commitName": "feat: calucular precio neto de productos",
     "commitTimestamp": 1788744704416,
     "testId": 0
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1788744790195,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: cantidad de productos 0",
+    "commitTimestamp": 1788744834062,
+    "testId": 1
   }
 ]
