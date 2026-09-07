@@ -370,9 +370,63 @@
     "testId": 14
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ab84d43167ea4f28f6494de78a1d7d060ded517b",
     "commitName": "Revert \"fix: complementar funciones\"\n\nThis reverts commit e80a69efcc4fade6c5ed230d9ee28f7a21e68ce1.",
     "commitTimestamp": 1788749350365,
     "testId": 15
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 6,
+    "numTotalTests": 17,
+    "timestamp": 1788748227440,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788748266426,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788748704533,
+    "success": false,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788748731235,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788749169861,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 0,
+    "numTotalTests": 16,
+    "timestamp": 1788749552190,
+    "success": true,
+    "testId": 16
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "fix: completando funciones",
+    "commitTimestamp": 1788749581756,
+    "testId": 16
   }
 ]

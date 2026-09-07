@@ -285,12 +285,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ab84d43167ea4f28f6494de78a1d7d060ded517b",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T02:47:53.000Z",
       "message": "Revert \"fix: complementar funciones\"\n\nThis reverts commit e80a69efcc4fade6c5ed230d9ee28f7a21e68ce1.",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/ab84d43167ea4f28f6494de78a1d7d060ded517b"
     },
     "stats": {
       "total": 51,
@@ -299,6 +299,25 @@
       "date": "2026-09-07"
     },
     "coverage": 69.7,
+    "test_count": 16,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T02:53:00.000Z",
+      "message": "fix: completando funciones",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 22,
+      "deletions": 29,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
     "test_count": 16,
     "failed_tests": 0,
     "conclusion": "success"
