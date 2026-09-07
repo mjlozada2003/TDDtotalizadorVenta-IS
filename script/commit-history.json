@@ -361,12 +361,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7f468cfa84b0e174c3a1768b6aeb17d5ca0490a0",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T03:09:04.000Z",
       "message": "feat: verificar codigo de estado valido",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/7f468cfa84b0e174c3a1768b6aeb17d5ca0490a0"
     },
     "stats": {
       "total": 11,
@@ -376,6 +376,25 @@
     },
     "coverage": 100,
     "test_count": 19,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T03:11:27.000Z",
+      "message": "feat: verificar cantidad de items positiva",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 7,
+      "additions": 6,
+      "deletions": 1,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 20,
     "failed_tests": 0,
     "conclusion": "success"
   }

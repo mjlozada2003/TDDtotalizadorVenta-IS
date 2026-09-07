@@ -59,6 +59,10 @@ describe("Totalizador", () => {
   it("deberia mostrar un mensaje de error si el codigo de estado no es seleccionado", () =>{
     expect(verificarCodigo("")).toEqual("Seleccione un código de estado válido");
   });
+
+  it("deberia mostrar un mensaje de error si la cantidad de items es invalida", () =>{
+    expect(calcularPrecioNeto(-1, 3)).toEqual("Ingrese una cantidad de items válida");
+  });
 });
 
 

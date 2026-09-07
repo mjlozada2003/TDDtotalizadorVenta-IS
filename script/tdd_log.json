@@ -514,9 +514,31 @@
     "testId": 19
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7f468cfa84b0e174c3a1768b6aeb17d5ca0490a0",
     "commitName": "feat: verificar codigo de estado valido",
     "commitTimestamp": 1788750545894,
     "testId": 19
+  },
+  {
+    "numPassedTests": 19,
+    "failedTests": 1,
+    "numTotalTests": 20,
+    "timestamp": 1788750632415,
+    "success": false,
+    "testId": 20
+  },
+  {
+    "numPassedTests": 20,
+    "failedTests": 0,
+    "numTotalTests": 20,
+    "timestamp": 1788750664455,
+    "success": true,
+    "testId": 20
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: verificar cantidad de items positiva",
+    "commitTimestamp": 1788750688837,
+    "testId": 20
   }
 ]

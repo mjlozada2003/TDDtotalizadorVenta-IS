@@ -1,5 +1,6 @@
 function calcularPrecioNeto(cantidad, precioUnitario){
-  return cantidad * precioUnitario;
+    if(cantidad < 0) return "Ingrese una cantidad de items válida";
+    else return cantidad * precioUnitario;
 }
 function verificarCodigo(codigo) {
     if(codigo === "") return "Seleccione un código de estado válido";
