@@ -36,6 +36,9 @@ describe("Totalizador", () => {
   it("deberia ver el descuento aplicado al precio neto", () =>{
     expect(descuentoAplicado(1000)).toEqual(30);
   });
+  it("deberia ver el descuento aplicado al precio neto", () =>{
+    expect(descuentoAplicado(3000)).toEqual(150);
+  });
 });
 
 
