@@ -574,9 +574,31 @@
     "testId": 21
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a6a4697536daf9263f0a62790f243029674b974e",
     "commitName": "feat: verificar cantidad de items correcta",
     "commitTimestamp": 1788751077995,
     "testId": 21
+  },
+  {
+    "numPassedTests": 21,
+    "failedTests": 1,
+    "numTotalTests": 22,
+    "timestamp": 1788751118021,
+    "success": false,
+    "testId": 22
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 0,
+    "numTotalTests": 22,
+    "timestamp": 1788751161877,
+    "success": true,
+    "testId": 22
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: verificar que la cantidad no sea decimal",
+    "commitTimestamp": 1788751191331,
+    "testId": 22
   }
 ]

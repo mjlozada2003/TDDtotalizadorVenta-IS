@@ -1,5 +1,5 @@
 function calcularPrecioNeto(cantidad, precioUnitario){
-    if(cantidad < 0) return "Ingrese una cantidad de items válida";
+    if(cantidad < 0 || !Number.isInteger(cantidad)) return "Ingrese una cantidad de items válida";
     else return cantidad * precioUnitario;
 }
 function verificarCodigo(codigo) {
