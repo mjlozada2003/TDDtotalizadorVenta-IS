@@ -10,6 +10,9 @@ describe("Totalizador", () => {
   it("el precio deberia ser 0 si el precio unitario es 0", () => {
     expect(calcularPrecioNeto(3, 0)).toEqual(0);
   });
+  it("debería calcular el precio neto con decimales", () => {
+    expect(calcularPrecioNeto(2, 3.2)).toEqual(6.4);
+  })
 });
 
 

@@ -52,9 +52,23 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f0f5eff9644ec64390e655f5b3ca07f71c0823ca",
     "commitName": "test: precio de productos 0",
     "commitTimestamp": 1788744959606,
     "testId": 2
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1788745049694,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: precio de productos decimal",
+    "commitTimestamp": 1788745101086,
+    "testId": 3
   }
 ]
