@@ -618,9 +618,31 @@
     "testId": 23
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d40d9ad331aa554a6b67ba3c36817febd40ba39a",
     "commitName": "feat: verificar precios negativos",
     "commitTimestamp": 1788751330888,
     "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 1,
+    "numTotalTests": 24,
+    "timestamp": 1788751442880,
+    "success": false,
+    "testId": 24
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 0,
+    "numTotalTests": 24,
+    "timestamp": 1788751480663,
+    "success": true,
+    "testId": 24
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: verificar que el precio sea valido",
+    "commitTimestamp": 1788751513003,
+    "testId": 24
   }
 ]

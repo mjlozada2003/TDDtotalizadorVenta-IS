@@ -26,6 +26,7 @@ function descuentoAplicado(precioNeto) {
 
 function calcularPrecioTotal(cantidad, precioUnitario, codigo) {
   if(cantidad === 0 && precioUnitario != 0) return "Ingrese una cantidad de items válida";
+  if(precioUnitario === 0 && cantidad != 0) return "Ingrese un precio válido";
   const precioNeto = calcularPrecioNeto(cantidad, precioUnitario);
   const impuesto = impuestoAplicado(codigo, precioNeto);
   const descuento = descuentoAplicado(precioNeto);
