@@ -170,9 +170,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "78ac6f45c62271b8751d7272775109e8a40c5e68",
     "commitName": "feat: calcular impuesto AL aplicado a precio neto",
     "commitTimestamp": 1788745999362,
     "testId": 7
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 1,
+    "numTotalTests": 10,
+    "timestamp": 1788746053949,
+    "success": false,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 0,
+    "numTotalTests": 10,
+    "timestamp": 1788746068266,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular impuesto CA aplicado a precio neto",
+    "commitTimestamp": 1788746086396,
+    "testId": 8
   }
 ]
