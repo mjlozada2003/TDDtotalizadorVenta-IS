@@ -424,9 +424,39 @@
     "testId": 16
   },
   {
-    "commitId": "HEAD",
+    "commitId": "724a7a3ee96d651e26af4312d422b107977c00a9",
     "commitName": "fix: completando funciones",
     "commitTimestamp": 1788749581756,
     "testId": 16
+  },
+  {
+    "numPassedTests": 16,
+    "failedTests": 1,
+    "numTotalTests": 17,
+    "timestamp": 1788749746205,
+    "success": false,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788749890053,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "numPassedTests": 17,
+    "failedTests": 0,
+    "numTotalTests": 17,
+    "timestamp": 1788749923126,
+    "success": true,
+    "testId": 17
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con impuestos y descuentos",
+    "commitTimestamp": 1788749948039,
+    "testId": 17
   }
 ]

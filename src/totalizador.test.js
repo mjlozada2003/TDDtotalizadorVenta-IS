@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado} from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -47,6 +47,10 @@ describe("Totalizador", () => {
   });
   it("deberia ver el descuento aplicado al precio neto", () =>{
     expect(descuentoAplicado(30000)).toEqual("(15%): 4500");
+  });
+
+  it("deberia ver el precio total con impuestos y descuentos aplicados", () =>{
+    expect(calcularPrecioTotal(20,3,"TX")).toEqual(63.75);
   });
 });
 

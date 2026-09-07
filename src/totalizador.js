@@ -19,4 +19,11 @@ function descuentoAplicado(precioNeto) {
     else return "(0%): 0";
 }
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado };
+function calcularPrecioTotal(cantidad, precioUnitario, codigo) {
+  const precioNeto = calcularPrecioNeto(cantidad, precioUnitario);
+  const impuesto = impuestoAplicado(codigo, precioNeto);
+  const descuento = descuentoAplicado(precioNeto);
+  return precioNeto + parseFloat(impuesto.split(": ")[1]) - parseFloat(descuento.split(": ")[1]);
+}
+
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal };
