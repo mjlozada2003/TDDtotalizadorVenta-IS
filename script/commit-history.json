@@ -152,12 +152,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1867f1c884459036d1af876aaf2a957622ffba56",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T01:54:45.000Z",
       "message": "feat: calcular impuesto CA aplicado a precio neto",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/1867f1c884459036d1af876aaf2a957622ffba56"
     },
     "stats": {
       "total": 5,
@@ -167,6 +167,25 @@
     },
     "coverage": 100,
     "test_count": 10,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T02:03:56.000Z",
+      "message": "feat: calcular descuento aplicado a precio neto menor a 1000",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 20,
+      "additions": 18,
+      "deletions": 2,
+      "date": "2026-09-07"
+    },
+    "coverage": 56,
+    "test_count": 11,
     "failed_tests": 0,
     "conclusion": "success"
   }

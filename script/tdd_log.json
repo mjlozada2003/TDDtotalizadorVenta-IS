@@ -192,9 +192,55 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1867f1c884459036d1af876aaf2a957622ffba56",
     "commitName": "feat: calcular impuesto CA aplicado a precio neto",
     "commitTimestamp": 1788746086396,
     "testId": 8
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788746243042,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788746421295,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 10,
+    "failedTests": 1,
+    "numTotalTests": 11,
+    "timestamp": 1788746528540,
+    "success": false,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788746570804,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1788746600876,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular descuento aplicado a precio neto menor a 1000",
+    "commitTimestamp": 1788746637979,
+    "testId": 9
   }
 ]
