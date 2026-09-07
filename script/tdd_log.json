@@ -596,9 +596,31 @@
     "testId": 22
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7845943c8e71eac42126ee0c3b81b56a73a8683e",
     "commitName": "feat: verificar que la cantidad no sea decimal",
     "commitTimestamp": 1788751191331,
     "testId": 22
+  },
+  {
+    "numPassedTests": 22,
+    "failedTests": 1,
+    "numTotalTests": 23,
+    "timestamp": 1788751277146,
+    "success": false,
+    "testId": 23
+  },
+  {
+    "numPassedTests": 23,
+    "failedTests": 0,
+    "numTotalTests": 23,
+    "timestamp": 1788751309920,
+    "success": true,
+    "testId": 23
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: verificar precios negativos",
+    "commitTimestamp": 1788751330888,
+    "testId": 23
   }
 ]

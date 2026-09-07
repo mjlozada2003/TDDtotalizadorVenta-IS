@@ -418,12 +418,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7845943c8e71eac42126ee0c3b81b56a73a8683e",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T03:19:49.000Z",
       "message": "feat: verificar que la cantidad no sea decimal",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/7845943c8e71eac42126ee0c3b81b56a73a8683e"
     },
     "stats": {
       "total": 5,
@@ -433,6 +433,25 @@
     },
     "coverage": 100,
     "test_count": 22,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-07T03:22:09.000Z",
+      "message": "feat: verificar precios negativos",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 23,
     "failed_tests": 0,
     "conclusion": "success"
   }

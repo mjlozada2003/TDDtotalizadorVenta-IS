@@ -69,6 +69,10 @@ describe("Totalizador", () => {
   it("deberia mostrar un mensaje de error si la cantidad de items es invalida", () =>{
     expect(calcularPrecioNeto(1.5, 3)).toEqual("Ingrese una cantidad de items válida");
   });
+
+  it("deberia mostrar un mensaje de error si la cantidad de items es invalida", () =>{
+    expect(calcularPrecioNeto(20, -3)).toEqual("Ingrese un precio válido");
+  });
 });
 
 
