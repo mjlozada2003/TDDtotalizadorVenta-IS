@@ -646,9 +646,15 @@
     "testId": 24
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ba2d5d90678c613096444e6fff31bd40b163500",
     "commitName": "feat: interfaz del totalizador",
     "commitTimestamp": 1788753625423,
     "testId": 25
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "docs: lista de funcionalidades y lista de tests para la parte 2",
+    "commitTimestamp": 1788877484843,
+    "testId": 26
   }
 ]

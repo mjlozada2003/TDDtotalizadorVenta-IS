@@ -475,18 +475,37 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "1ba2d5d90678c613096444e6fff31bd40b163500",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-07T04:00:23.000Z",
       "message": "feat: interfaz del totalizador",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/1ba2d5d90678c613096444e6fff31bd40b163500"
     },
     "stats": {
       "total": 53,
       "additions": 36,
       "deletions": 17,
       "date": "2026-09-07"
+    },
+    "coverage": 100,
+    "test_count": 24,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-08T14:24:42.000Z",
+      "message": "docs: lista de funcionalidades y lista de tests para la parte 2",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 88,
+      "additions": 85,
+      "deletions": 3,
+      "date": "2026-09-08"
     },
     "coverage": 100,
     "test_count": 24,
