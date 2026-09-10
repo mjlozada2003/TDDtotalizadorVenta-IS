@@ -966,9 +966,31 @@
     "testId": 37
   },
   {
-    "commitId": "HEAD",
+    "commitId": "079cc2fde2c7189375de62df9c10541330361ec4",
     "commitName": "feat: impuesto adicional por categoria electronicos",
     "commitTimestamp": 1789006061916,
     "testId": 37
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 1,
+    "numTotalTests": 36,
+    "timestamp": 1789006127504,
+    "success": false,
+    "testId": 38
+  },
+  {
+    "numPassedTests": 36,
+    "failedTests": 0,
+    "numTotalTests": 36,
+    "timestamp": 1789006160417,
+    "success": true,
+    "testId": 38
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: impuesto adicional por categoria vestimenta",
+    "commitTimestamp": 1789006198380,
+    "testId": 38
   }
 ]

@@ -111,5 +111,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el impuesto adicional por categoria electronicos", () => {
     expect(impuestoAdicionalCategoria("Electronicos", 1000)).toEqual("(4%): 40");
   });
+  it("deberia mostrar el impuesto adicional por categoria vestimenta", () =>{
+    expect(impuestoAdicionalCategoria("Vestimenta", 1000)).toEqual("(2%): 20");
+  });
 });
 

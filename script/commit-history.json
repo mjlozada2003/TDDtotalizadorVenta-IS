@@ -703,12 +703,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "079cc2fde2c7189375de62df9c10541330361ec4",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T02:07:40.000Z",
       "message": "feat: impuesto adicional por categoria electronicos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/079cc2fde2c7189375de62df9c10541330361ec4"
     },
     "stats": {
       "total": 11,
@@ -718,6 +718,25 @@
     },
     "coverage": 98.21,
     "test_count": 35,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T02:09:56.000Z",
+      "message": "feat: impuesto adicional por categoria vestimenta",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 5,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.28,
+    "test_count": 36,
     "failed_tests": 0,
     "conclusion": "success"
   }
