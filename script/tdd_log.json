@@ -750,9 +750,47 @@
     "testId": 29
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fb02a3d024090ff7796f7f0805b1bb8754bafd17",
     "commitName": "feat: beneficio costo de envio cliente normal",
     "commitTimestamp": 1789003553925,
     "testId": 29
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789003721241,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789004040785,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 1,
+    "numTotalTests": 28,
+    "timestamp": 1789004135416,
+    "success": false,
+    "testId": 30
+  },
+  {
+    "numPassedTests": 28,
+    "failedTests": 0,
+    "numTotalTests": 28,
+    "timestamp": 1789004161532,
+    "success": true,
+    "testId": 30
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: beneficio costo de envio cliente recurrente",
+    "commitTimestamp": 1789004197262,
+    "testId": 30
   }
 ]

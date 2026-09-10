@@ -45,8 +45,13 @@ function aplicarDescuentoFijo(tipoCliente, precioNeto, categoria){
   }
 }
 
-function beneficioCostoEnvio(tipoCliente, precioNeto){
-  return precioNeto;
+function beneficioCostoEnvio(tipoCliente, costoEnvio){
+  if(tipoCliente == "Recurrente"){
+    return "(%0.5): " + (costoEnvio * 0.005) + "$";
+  }
+  else{
+    return "(0%): " + 0 + "$";
+  }
 }
 
 export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio };

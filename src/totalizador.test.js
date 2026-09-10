@@ -84,8 +84,11 @@ describe("Totalizador", () => {
   it("debería mostrar el precio total con descuento de monto fijo por cliente especial, precio neto y categoria", () =>{
     expect(aplicarDescuentoFijo("Especial", 7001, "Electrónicos")).toEqual(6801);
   });
-  it("debería mostrar el beneficio de cliente en el costo de envío", ()=>{
-    expect(beneficioCostoEnvio("Normal", 1000)).toEqual(1000);
+  it("debería mostrar el beneficio de cliente normal en el costo de envío", ()=>{
+    expect(beneficioCostoEnvio("Normal", 1000)).toEqual("(0%): 0$");
   });
+  it("debería mostrar el beneficio de cliente recurrente en el costo de envío", ( )=>{
+    expect(beneficioCostoEnvio("Recurrente", 1000)).toEqual("(%0.5): 5$");
+  })
 });
 
