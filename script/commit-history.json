@@ -855,12 +855,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "f6b656f300b42101962cadd22d5a342fe741a490",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T02:28:01.000Z",
       "message": "test: descuento adicional por categoria varios",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/f6b656f300b42101962cadd22d5a342fe741a490"
     },
     "stats": {
       "total": 6,
@@ -870,6 +870,25 @@
     },
     "coverage": 98.46,
     "test_count": 44,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T02:37:45.000Z",
+      "message": "calculo de costo de envio con peso de 0-100",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 12,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.51,
+    "test_count": 45,
     "failed_tests": 0,
     "conclusion": "success"
   }

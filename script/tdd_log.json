@@ -1150,9 +1150,39 @@
     "testId": 45
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f6b656f300b42101962cadd22d5a342fe741a490",
     "commitName": "test: descuento adicional por categoria varios",
     "commitTimestamp": 1789007282728,
     "testId": 45
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 1,
+    "numTotalTests": 45,
+    "timestamp": 1789007722007,
+    "success": false,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789007788589,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 0,
+    "numTotalTests": 45,
+    "timestamp": 1789007832966,
+    "success": true,
+    "testId": 46
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "calculo de costo de envio con peso de 0-100",
+    "commitTimestamp": 1789007866650,
+    "testId": 46
   }
 ]
