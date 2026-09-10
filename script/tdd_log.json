@@ -1032,9 +1032,31 @@
     "testId": 40
   },
   {
-    "commitId": "HEAD",
+    "commitId": "610e9447c8a13be69fd53e7fab8b4d1d9cfcde35",
     "commitName": "feat: descuento adicional por categoria alimentos",
     "commitTimestamp": 1789006740559,
     "testId": 40
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 1,
+    "numTotalTests": 39,
+    "timestamp": 1789006784870,
+    "success": false,
+    "testId": 41
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 0,
+    "numTotalTests": 39,
+    "timestamp": 1789006836910,
+    "success": true,
+    "testId": 41
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: descuento adicional por categoria bebidas alcoholicas",
+    "commitTimestamp": 1789006852882,
+    "testId": 41
   }
 ]

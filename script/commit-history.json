@@ -760,12 +760,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "610e9447c8a13be69fd53e7fab8b4d1d9cfcde35",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T02:18:59.000Z",
       "message": "feat: descuento adicional por categoria alimentos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/610e9447c8a13be69fd53e7fab8b4d1d9cfcde35"
     },
     "stats": {
       "total": 14,
@@ -775,6 +775,25 @@
     },
     "coverage": 98.33,
     "test_count": 38,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T02:20:51.000Z",
+      "message": "feat: descuento adicional por categoria bebidas alcoholicas",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.39,
+    "test_count": 39,
     "failed_tests": 0,
     "conclusion": "success"
   }
