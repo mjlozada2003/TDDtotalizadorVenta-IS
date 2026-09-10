@@ -49,10 +49,10 @@
 
 # Priorización por importancia
 
-1. Como usuario quiero ver el impuesto adicional a mi producto segun su categoría
-2. Como usuario quiero ver el descuento adicional a mi producto segun su categoria 
-3. Como cliente quiero usar mi beneficio de descuento de monto fijo de acuerdo al precio neto y categoria de mis productos
-4. Como cliente quiero usar mi beneficio en el costo de envío
+1. Como cliente quiero usar mi beneficio de descuento de monto fijo de acuerdo al precio neto y categoria de mis productos
+2. Como cliente quiero usar mi beneficio en el costo de envío
+3. Como usuario quiero ver el impuesto adicional a mi producto segun su categoría
+4. Como usuario quiero ver el descuento adicional a mi producto segun su categoria 
 5. Como usuario quiero ver el costo de envío de mis productos de acuerdo a su peso volumétrico
 6. Como usuario quiero ver el detalle de mis beneficios de cliente
 7. Como usuario quiero ver un mensaje de error cuando ingrese un peso volumétrico erróneo

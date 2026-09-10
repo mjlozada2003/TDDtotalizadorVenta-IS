@@ -42,7 +42,18 @@
 
 # Testlist SEGUNDA PARTE
 
-1. Como usuario quiero ver el impuesto adicional a mi producto segun su categoría
+1. Como cliente quiero usar mi beneficio de descuento de monto fijo de acuerdo al precio neto y categoria de mis productos
+- Cliente Recurrente, precio neto > 3000, categoría alimentos -> -100$
+- Cliente Especial, precio neto > 7000, categoría electrónicos -> -200$
+- Si no cumple -> -0$
+
+2. Como cliente quiero usar mi beneficio en el costo de envío
+- Cliente Normal -> 0%
+- Cliente Recurrente -> 0.5%
+- Cliente Antiguo Recurrente -> 1%
+- Cliente Especial -> 1.5 %
+
+3. Como usuario quiero ver el impuesto adicional a mi producto segun su categoría
 - Alimentos -> 0%
 - Bebidas alcohólicas -> 7%
 - Material de escritorio -> 0%
@@ -51,7 +62,7 @@
 - Vestimenta -> 2%
 - Varios -> 0%
 
-2. Como usuario quiero ver el descuento adicional a mi producto segun su categoria 
+4. Como usuario quiero ver el descuento adicional a mi producto segun su categoria 
 - Alimentos -> 2%
 - Bebidas alcohólicas -> 0%
 - Material de escritorio -> 1.5%
@@ -59,17 +70,6 @@
 - Electrónicos -> 1%
 - Vestimenta -> 0%
 - Varios -> 0%
-
-3. Como cliente quiero usar mi beneficio de descuento de monto fijo de acuerdo al precio neto y categoria de mis productos
-- Cliente Recurrente, precio neto > 3000, categoría alimentos -> -100$
-- Cliente Especial, precio neto > 7000, categoría electrónicos -> -200$
-- Si no cumple -> -0$
-
-4. Como cliente quiero usar mi beneficio en el costo de envío
-- Cliente Normal -> 0%
-- Cliente Recurrente -> 0.5%
-- Cliente Antiguo Recurrente -> 1%
-- Cliente Especial -> 1.5 %
 
 5. Como usuario quiero ver el costo de envío de mis productos de acuerdo a su peso volumétrico
 - Entre 0 y 100 -> 0$

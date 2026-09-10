@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo} from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -76,7 +76,11 @@ describe("Totalizador", () => {
   it("deberia mostrar un mensaje de error si el precio unitario es invalido", () =>{
     expect(calcularPrecioTotal(20, 0, "TX")).toEqual("Ingrese un precio válido");
   });
-});
 
+  //TESTS PARTE 2
+  it("debería mostrar el precio total con descuento de monto fijo por cliente recurrente, precio neto y categoría", ()=>{
+    expect(aplicarDescuentoFijo("Recurrente", 3001, "Alimentos")).toEqual(2901);
+  });
+});
 
 

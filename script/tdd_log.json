@@ -652,9 +652,47 @@
     "testId": 25
   },
   {
-    "commitId": "HEAD",
+    "commitId": "4df155a9925a67da40ad6eb3538ee2a2b231ffe3",
     "commitName": "docs: lista de funcionalidades y lista de tests para la parte 2",
     "commitTimestamp": 1788877484843,
     "testId": 26
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1789002557924,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789002692000,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 24,
+    "failedTests": 1,
+    "numTotalTests": 25,
+    "timestamp": 1789002720374,
+    "success": false,
+    "testId": 27
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 0,
+    "numTotalTests": 25,
+    "timestamp": 1789002746762,
+    "success": true,
+    "testId": 27
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: descuento fijo por cliente recurrente, precio neto mayor a 3000 y categoria alimentos",
+    "commitTimestamp": 1789002780682,
+    "testId": 27
   }
 ]

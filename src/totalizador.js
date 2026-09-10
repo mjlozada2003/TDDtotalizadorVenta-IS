@@ -33,4 +33,10 @@ function calcularPrecioTotal(cantidad, precioUnitario, codigo) {
   return precioNeto + parseFloat(impuesto.split(": ")[1]) - parseFloat(descuento.split(": ")[1]);
 }
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo };
+function aplicarDescuentoFijo(tipoCliente, precioNeto, categoria){
+  if(tipoCliente == "Recurrente" && precioNeto > 3000 && categoria == "Alimentos"){
+    return precioNeto - 100;
+  }
+}
+
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo };
