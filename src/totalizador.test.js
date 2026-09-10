@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria} from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -116,6 +116,9 @@ describe("Totalizador", () => {
   });
   it("deberia mostrar el impuesto adicional por categoria varios", () => {
     expect(impuestoAdicionalCategoria("Varios", 1000)).toEqual("(0%): 0");
+  });
+  it("deberia mostrar el descuento adicional por categoria alimentos", () => {
+    expect(descuentoAdicionalCategoria("Alimentos", 1000)).toEqual("(2%): 20")
   })
 });
 

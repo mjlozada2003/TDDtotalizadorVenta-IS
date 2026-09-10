@@ -1002,9 +1002,39 @@
     "testId": 39
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3a8b20d81a67161c549c1fbe17e99c6cd3424fda",
     "commitName": "test: impuesto adicional por categoria varios",
     "commitTimestamp": 1789006314767,
     "testId": 39
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 1,
+    "numTotalTests": 38,
+    "timestamp": 1789006455189,
+    "success": false,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1789006530254,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "numPassedTests": 38,
+    "failedTests": 0,
+    "numTotalTests": 38,
+    "timestamp": 1789006645307,
+    "success": true,
+    "testId": 40
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: descuento adicional por categoria alimentos",
+    "commitTimestamp": 1789006740559,
+    "testId": 40
   }
 ]

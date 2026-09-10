@@ -1,4 +1,4 @@
-import { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, impuestoAdicionalCategoria } from "./totalizador.js";
+import { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, impuestoAdicionalCategoria, descuentoAdicionalCategoria } from "./totalizador.js";
 
 const cantidad = document.querySelector("#cantidad");
 const precioUnitario = document.querySelector("#precio-item");
@@ -20,5 +20,6 @@ totalizarForm.addEventListener("submit", (event) => {
   div.innerHTML += "<p> Descuento " + descuentoAplicado(precioNeto) + "</p>";
   div.innerHTML += "<p> Impuesto para " + impuestoAplicado(codigoEstado.value, precioNeto) + "</p>";
   div.innerHTML += "<p> Impuesto adicional por categoria " + impuestoAdicionalCategoria(categoriaProducto.value, precioNeto) + "</p>";
+  div.innerHTML += "<p> Descuento adicional por categoria " + descuentoAdicionalCategoria(categoriaProducto.value, precioNeto) + "</p>";
   div.innerHTML += "<p> Precio total (descuento e impuesto): " + calcularPrecioTotal(cantidadValue, precioUnitarioValue, codigoEstado.value) + "</p>";
 });

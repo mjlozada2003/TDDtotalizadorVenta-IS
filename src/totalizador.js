@@ -64,5 +64,8 @@ function impuestoAdicionalCategoria(categoria, precioNeto) {
   return "(0%): " + precioNeto * 0;
 }
 
+function descuentoAdicionalCategoria(categoria, precioNeto){
+  if(categoria == "Alimentos") return "(2%): " + precioNeto * 0.02;
+}
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria };
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria };

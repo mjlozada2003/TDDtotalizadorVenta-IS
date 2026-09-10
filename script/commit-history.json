@@ -741,12 +741,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3a8b20d81a67161c549c1fbe17e99c6cd3424fda",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T02:11:53.000Z",
       "message": "test: impuesto adicional por categoria varios",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/3a8b20d81a67161c549c1fbe17e99c6cd3424fda"
     },
     "stats": {
       "total": 4,
@@ -756,6 +756,25 @@
     },
     "coverage": 98.28,
     "test_count": 37,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T02:18:59.000Z",
+      "message": "feat: descuento adicional por categoria alimentos",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 11,
+      "deletions": 3,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.33,
+    "test_count": 38,
     "failed_tests": 0,
     "conclusion": "success"
   }
