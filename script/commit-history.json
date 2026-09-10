@@ -532,12 +532,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3e97b57e4f75dbf598ceba3d6d100f2dc6f1db9b",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T01:17:15.000Z",
       "message": "feat: descuento fijo por cliente especial, precio neto mayor a 7000 y categoria electronicos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/3e97b57e4f75dbf598ceba3d6d100f2dc6f1db9b"
     },
     "stats": {
       "total": 9,
@@ -547,6 +547,25 @@
     },
     "coverage": 97.62,
     "test_count": 26,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T01:25:52.000Z",
+      "message": "feat: beneficio costo de envio cliente normal",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 10,
+      "deletions": 4,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.67,
+    "test_count": 27,
     "failed_tests": 0,
     "conclusion": "success"
   }

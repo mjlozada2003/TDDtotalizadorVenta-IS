@@ -720,9 +720,39 @@
     "testId": 28
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3e97b57e4f75dbf598ceba3d6d100f2dc6f1db9b",
     "commitName": "feat: descuento fijo por cliente especial, precio neto mayor a 7000 y categoria electronicos",
     "commitTimestamp": 1789003036821,
     "testId": 28
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 1,
+    "numTotalTests": 27,
+    "timestamp": 1789003459360,
+    "success": false,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1789003488658,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "numPassedTests": 27,
+    "failedTests": 0,
+    "numTotalTests": 27,
+    "timestamp": 1789003525507,
+    "success": true,
+    "testId": 29
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: beneficio costo de envio cliente normal",
+    "commitTimestamp": 1789003553925,
+    "testId": 29
   }
 ]

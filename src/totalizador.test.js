@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo} from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -83,7 +83,9 @@ describe("Totalizador", () => {
   });
   it("debería mostrar el precio total con descuento de monto fijo por cliente especial, precio neto y categoria", () =>{
     expect(aplicarDescuentoFijo("Especial", 7001, "Electrónicos")).toEqual(6801);
-  })
+  });
+  it("debería mostrar el beneficio de cliente en el costo de envío", ()=>{
+    expect(beneficioCostoEnvio("Normal", 1000)).toEqual(1000);
+  });
 });
-
 

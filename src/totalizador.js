@@ -45,4 +45,8 @@ function aplicarDescuentoFijo(tipoCliente, precioNeto, categoria){
   }
 }
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo };
+function beneficioCostoEnvio(tipoCliente, precioNeto){
+  return precioNeto;
+}
+
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio };
