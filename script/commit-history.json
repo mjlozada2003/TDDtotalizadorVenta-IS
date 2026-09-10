@@ -1007,12 +1007,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "52c86d6b8b04ab56657d31d489fe85de5e37fff1",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T03:11:40.000Z",
       "message": "feat: mostrar detalle de precios",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/52c86d6b8b04ab56657d31d489fe85de5e37fff1"
     },
     "stats": {
       "total": 36,
@@ -1022,6 +1022,25 @@
     },
     "coverage": 98.72,
     "test_count": 52,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T03:20:55.000Z",
+      "message": "feat: verificar pesos positivos",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 5,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.75,
+    "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"
   }

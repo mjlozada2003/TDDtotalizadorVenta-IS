@@ -1358,9 +1358,39 @@
     "testId": 53
   },
   {
-    "commitId": "HEAD",
+    "commitId": "52c86d6b8b04ab56657d31d489fe85de5e37fff1",
     "commitName": "feat: mostrar detalle de precios",
     "commitTimestamp": 1789009901585,
     "testId": 53
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1789010045642,
+    "success": false,
+    "testId": 54
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1789010115568,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1789010426835,
+    "success": true,
+    "testId": 54
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: verificar pesos positivos",
+    "commitTimestamp": 1789010456440,
+    "testId": 54
   }
 ]

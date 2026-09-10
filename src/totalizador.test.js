@@ -162,5 +162,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el costo de envio en base a un peso volumetrico 0-10", () => {
     expect(costoEnvio(104.1, 20)).toEqual(160);
   });
+  it("debería mostrar un mensaje de error cuando ingrese un peso volumetrico negativo", ()=> {
+    expect(costoEnvio(-80, 20)).toEqual("Ingresa un peso volumetrico valido");
+  });
 });
 
