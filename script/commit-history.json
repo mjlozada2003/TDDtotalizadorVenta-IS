@@ -589,12 +589,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "7524764278d184323a1a7f6cbd846d7295d5b693",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T01:40:08.000Z",
       "message": "feat: beneficio costo de envio cliente antiguo recurrente",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/7524764278d184323a1a7f6cbd846d7295d5b693"
     },
     "stats": {
       "total": 21,
@@ -604,6 +604,25 @@
     },
     "coverage": 97.87,
     "test_count": 29,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T01:42:41.000Z",
+      "message": "feat: beneficio costo de envio cliente especial",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.96,
+    "test_count": 30,
     "failed_tests": 0,
     "conclusion": "success"
   }

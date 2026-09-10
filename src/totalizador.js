@@ -50,6 +50,9 @@ function beneficioCostoEnvio(tipoCliente, costoEnvio){
   if(tipoCliente == "Antiguo Recurrente"){
     return "(%1): " + (costoEnvio * 0.01) + "$";
   }
+  if(tipoCliente == "Especial"){
+    return "(%1.5): " + (costoEnvio * 0.015) + "$";
+  }
    return "(0%): " + 0 + "$";
 }
 

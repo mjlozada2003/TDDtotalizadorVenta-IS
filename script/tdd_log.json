@@ -818,9 +818,39 @@
     "testId": 31
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7524764278d184323a1a7f6cbd846d7295d5b693",
     "commitName": "feat: beneficio costo de envio cliente antiguo recurrente",
     "commitTimestamp": 1789004409238,
     "testId": 31
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1789004505883,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 29,
+    "failedTests": 1,
+    "numTotalTests": 30,
+    "timestamp": 1789004526666,
+    "success": false,
+    "testId": 32
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 0,
+    "numTotalTests": 30,
+    "timestamp": 1789004547677,
+    "success": true,
+    "testId": 32
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: beneficio costo de envio cliente especial",
+    "commitTimestamp": 1789004563017,
+    "testId": 32
   }
 ]

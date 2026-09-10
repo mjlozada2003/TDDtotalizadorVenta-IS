@@ -93,5 +93,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el beneficio de cliente antiguo recurrente en el costo de envío", ()=>{
     expect(beneficioCostoEnvio("Antiguo Recurrente", 1000)).toEqual("(%1): 10$");
   });
+  it("debería mostrar el beneficio de cliente especial en el costo de envío", ()=>{
+    expect(beneficioCostoEnvio("Especial", 1000)).toEqual("(%1.5): 15$");
+  });
 });
 
