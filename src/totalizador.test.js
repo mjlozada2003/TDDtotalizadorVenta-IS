@@ -97,7 +97,10 @@ describe("Totalizador", () => {
     expect(beneficioCostoEnvio("Especial", 1000)).toEqual("(%1.5): 15$");
   });
   it("debería mostrar el impuesto adicional al producto por categoria alimentos", ()=>{
-    expect(impuestoAdicionalCategoria("Alimentos", 1000)).toEqual("Alimentos(0%): 0");
+    expect(impuestoAdicionalCategoria("Alimentos", 1000)).toEqual("(0%): 0");
+  });
+  it("deberia mostrar el impuesto adicional por categoria Bebidas alcoholicas", () => {
+    expect(impuestoAdicionalCategoria("Bebidas alcoholicas", 1000)).toEqual("(7%): 70")
   });
 });
 

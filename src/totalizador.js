@@ -57,7 +57,8 @@ function beneficioCostoEnvio(tipoCliente, costoEnvio){
 }
 
 function impuestoAdicionalCategoria(categoria, precioNeto) {
-  if(categoria == "Alimentos") return "Alimentos(0%): " + precioNeto * 0;
+  if(categoria == "Alimentos") return "(0%): " + precioNeto * 0;
+  if(categoria == "Bebidas alcoholicas") return "(7%): " + precioNeto * 0.07;
 }
 
 

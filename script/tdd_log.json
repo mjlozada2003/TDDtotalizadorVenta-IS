@@ -878,9 +878,31 @@
     "testId": 33
   },
   {
-    "commitId": "HEAD",
+    "commitId": "ff2bf234e639fd63a8856d7ea7333e3396078a3e",
     "commitName": "feat: impuesto adicional por categoria alimentos",
     "commitTimestamp": 1789004846602,
     "testId": 33
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 1,
+    "numTotalTests": 32,
+    "timestamp": 1789005034791,
+    "success": false,
+    "testId": 34
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 0,
+    "numTotalTests": 32,
+    "timestamp": 1789005086906,
+    "success": true,
+    "testId": 34
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: impuesto adicional por categoria bebidas alcoholicas",
+    "commitTimestamp": 1789005102164,
+    "testId": 34
   }
 ]

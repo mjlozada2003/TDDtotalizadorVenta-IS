@@ -627,12 +627,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "ff2bf234e639fd63a8856d7ea7333e3396078a3e",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T01:47:25.000Z",
       "message": "feat: impuesto adicional por categoria alimentos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/ff2bf234e639fd63a8856d7ea7333e3396078a3e"
     },
     "stats": {
       "total": 11,
@@ -642,6 +642,25 @@
     },
     "coverage": 98.04,
     "test_count": 31,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T01:51:41.000Z",
+      "message": "feat: impuesto adicional por categoria bebidas alcoholicas",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 8,
+      "additions": 6,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.11,
+    "test_count": 32,
     "failed_tests": 0,
     "conclusion": "success"
   }
