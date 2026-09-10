@@ -848,9 +848,39 @@
     "testId": 32
   },
   {
-    "commitId": "HEAD",
+    "commitId": "eb86e88545fa29a92952760793462bf353455010",
     "commitName": "feat: beneficio costo de envio cliente especial",
     "commitTimestamp": 1789004563017,
     "testId": 32
+  },
+  {
+    "numPassedTests": 30,
+    "failedTests": 1,
+    "numTotalTests": 31,
+    "timestamp": 1789004718311,
+    "success": false,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1789004772490,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "numPassedTests": 31,
+    "failedTests": 0,
+    "numTotalTests": 31,
+    "timestamp": 1789004811743,
+    "success": true,
+    "testId": 33
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: impuesto adicional por categoria alimentos",
+    "commitTimestamp": 1789004846602,
+    "testId": 33
   }
 ]

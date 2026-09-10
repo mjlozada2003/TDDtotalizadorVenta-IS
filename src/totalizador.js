@@ -56,5 +56,9 @@ function beneficioCostoEnvio(tipoCliente, costoEnvio){
    return "(0%): " + 0 + "$";
 }
 
+function impuestoAdicionalCategoria(categoria, precioNeto) {
+  if(categoria == "Alimentos") return "Alimentos(0%): " + precioNeto * 0;
+}
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio };
+
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria };

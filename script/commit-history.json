@@ -608,12 +608,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "eb86e88545fa29a92952760793462bf353455010",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T01:42:41.000Z",
       "message": "feat: beneficio costo de envio cliente especial",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/eb86e88545fa29a92952760793462bf353455010"
     },
     "stats": {
       "total": 6,
@@ -623,6 +623,25 @@
     },
     "coverage": 97.96,
     "test_count": 30,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T01:47:25.000Z",
+      "message": "feat: impuesto adicional por categoria alimentos",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 9,
+      "deletions": 2,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.04,
+    "test_count": 31,
     "failed_tests": 0,
     "conclusion": "success"
   }
