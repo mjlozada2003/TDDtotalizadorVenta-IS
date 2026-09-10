@@ -156,5 +156,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el costo de envio en base a un peso volumetrico 101-200", () => {
     expect(costoEnvio(200, 20)).toEqual(160);
   });
+  it("deberia mostrar el costo de envio en base a un peso volumetrico mayor a 200", () => {
+    expect(costoEnvio(201, 20)).toEqual(180);
+  });
 });
 
