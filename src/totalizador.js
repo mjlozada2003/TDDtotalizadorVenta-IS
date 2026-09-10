@@ -67,6 +67,7 @@ function impuestoAdicionalCategoria(categoria, precioNeto) {
 function descuentoAdicionalCategoria(categoria, precioNeto){
   if(categoria == "Alimentos") return "(2%): " + precioNeto * 0.02;
   if(categoria == "Material de escritorio") return "(1.5%): " + precioNeto * 0.015;
+  if(categoria == "Electronicos") return "(1%): " + precioNeto * 0.01;
   return "(0%): " + precioNeto * 0;
 }
 
