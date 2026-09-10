@@ -100,13 +100,16 @@ describe("Totalizador", () => {
     expect(impuestoAdicionalCategoria("Alimentos", 1000)).toEqual("(0%): 0");
   });
   it("deberia mostrar el impuesto adicional por categoria Bebidas alcoholicas", () => {
-    expect(impuestoAdicionalCategoria("Bebidas alcoholicas", 1000)).toEqual("(7%): 70")
+    expect(impuestoAdicionalCategoria("Bebidas alcoholicas", 1000)).toEqual("(7%): 70");
   });
   it("deberia mostrar el impuesto adicional por categoria material de escritorio", ()=>{
-    expect(impuestoAdicionalCategoria("Material de escritorio", 1000)).toEqual("(0%): 0")
+    expect(impuestoAdicionalCategoria("Material de escritorio", 1000)).toEqual("(0%): 0");
   });
   it("deberia mostrar el impuesto adicional por categoria muebles", ()=> {
-    expect(impuestoAdicionalCategoria("Muebles", 1000)).toEqual("(3%): 30")
+    expect(impuestoAdicionalCategoria("Muebles", 1000)).toEqual("(3%): 30");
+  });
+  it("deberia mostrar el impuesto adicional por categoria electronicos", () => {
+    expect(impuestoAdicionalCategoria("Electronicos", 1000)).toEqual("(4%): 40");
   });
 });
 

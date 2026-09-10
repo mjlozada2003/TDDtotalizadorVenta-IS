@@ -944,9 +944,31 @@
     "testId": 36
   },
   {
-    "commitId": "HEAD",
+    "commitId": "95ca0932d1518dbd6a440c372adbc0a1f637fb19",
     "commitName": "feat: impuesto adicional por categoria muebles",
     "commitTimestamp": 1789005865605,
     "testId": 36
+  },
+  {
+    "numPassedTests": 34,
+    "failedTests": 1,
+    "numTotalTests": 35,
+    "timestamp": 1789005950895,
+    "success": false,
+    "testId": 37
+  },
+  {
+    "numPassedTests": 35,
+    "failedTests": 0,
+    "numTotalTests": 35,
+    "timestamp": 1789005988911,
+    "success": true,
+    "testId": 37
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: impuesto adicional por categoria electronicos",
+    "commitTimestamp": 1789006061916,
+    "testId": 37
   }
 ]
