@@ -798,12 +798,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5a2a11f34d0b0a33717f7fa7f51a4bb85656fc66",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T02:23:05.000Z",
       "message": "feat: descuento adicional por categoria material de escritorio",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/5a2a11f34d0b0a33717f7fa7f51a4bb85656fc66"
     },
     "stats": {
       "total": 6,
@@ -813,6 +813,25 @@
     },
     "coverage": 98.44,
     "test_count": 40,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T02:24:35.000Z",
+      "message": "feat: descuento adicional por categoria muebles",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 5,
+      "additions": 4,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.41,
+    "test_count": 41,
     "failed_tests": 0,
     "conclusion": "success"
   }

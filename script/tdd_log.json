@@ -1076,9 +1076,31 @@
     "testId": 42
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5a2a11f34d0b0a33717f7fa7f51a4bb85656fc66",
     "commitName": "feat: descuento adicional por categoria material de escritorio",
     "commitTimestamp": 1789006987372,
     "testId": 42
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 1,
+    "numTotalTests": 41,
+    "timestamp": 1789007023609,
+    "success": false,
+    "testId": 43
+  },
+  {
+    "numPassedTests": 41,
+    "failedTests": 0,
+    "numTotalTests": 41,
+    "timestamp": 1789007053972,
+    "success": true,
+    "testId": 43
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: descuento adicional por categoria muebles",
+    "commitTimestamp": 1789007076502,
+    "testId": 43
   }
 ]

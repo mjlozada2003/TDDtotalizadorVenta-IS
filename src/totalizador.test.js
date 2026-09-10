@@ -126,5 +126,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el descuento adicional por categoria material de escritorio", () => {
     expect(descuentoAdicionalCategoria("Material de escritorio", 1000)).toEqual("(1.5%): 15")
   });
+   it("deberia mostrar el descuento adicional por categoria muebles", () => {
+    expect(descuentoAdicionalCategoria("Muebles", 1000)).toEqual("(0%): 0")
+  });
 });
 

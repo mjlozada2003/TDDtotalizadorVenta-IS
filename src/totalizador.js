@@ -66,8 +66,8 @@ function impuestoAdicionalCategoria(categoria, precioNeto) {
 
 function descuentoAdicionalCategoria(categoria, precioNeto){
   if(categoria == "Alimentos") return "(2%): " + precioNeto * 0.02;
-  if(categoria == "Bebidas alcoholicas")  return "(0%): " + precioNeto * 0;
   if(categoria == "Material de escritorio") return "(1.5%): " + precioNeto * 0.015;
+  return "(0%): " + precioNeto * 0;
 }
 
 export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria };
