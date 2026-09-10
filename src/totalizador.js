@@ -77,6 +77,7 @@ function costoEnvio(pesoVolumetrico, cantidadProductos){
   if(pesoVolumetrico > 20 && pesoVolumetrico <= 40) return cantidadProductos * 5;
   if(pesoVolumetrico > 40 && pesoVolumetrico <= 80) return cantidadProductos * 6;
   if(pesoVolumetrico > 80 && pesoVolumetrico <= 100) return cantidadProductos * 6.5;
+  if(pesoVolumetrico > 100 && pesoVolumetrico <= 200) return cantidadProductos * 8;
 }
 
 export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio };
