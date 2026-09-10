@@ -114,5 +114,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el impuesto adicional por categoria vestimenta", () =>{
     expect(impuestoAdicionalCategoria("Vestimenta", 1000)).toEqual("(2%): 20");
   });
+  it("deberia mostrar el impuesto adicional por categoria varios", () => {
+    expect(impuestoAdicionalCategoria("Varios", 1000)).toEqual("(0%): 0");
+  })
 });
 

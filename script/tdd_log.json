@@ -988,9 +988,23 @@
     "testId": 38
   },
   {
-    "commitId": "HEAD",
+    "commitId": "df04703529e95034a8329edc1b7b7272dc1d0d48",
     "commitName": "feat: impuesto adicional por categoria vestimenta",
     "commitTimestamp": 1789006198380,
     "testId": 38
+  },
+  {
+    "numPassedTests": 37,
+    "failedTests": 0,
+    "numTotalTests": 37,
+    "timestamp": 1789006258483,
+    "success": true,
+    "testId": 39
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: impuesto adicional por categoria varios",
+    "commitTimestamp": 1789006314767,
+    "testId": 39
   }
 ]

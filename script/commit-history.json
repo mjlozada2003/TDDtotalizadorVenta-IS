@@ -722,12 +722,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "df04703529e95034a8329edc1b7b7272dc1d0d48",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T02:09:56.000Z",
       "message": "feat: impuesto adicional por categoria vestimenta",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/df04703529e95034a8329edc1b7b7272dc1d0d48"
     },
     "stats": {
       "total": 5,
@@ -737,6 +737,25 @@
     },
     "coverage": 98.28,
     "test_count": 36,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T02:11:53.000Z",
+      "message": "test: impuesto adicional por categoria varios",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.28,
+    "test_count": 37,
     "failed_tests": 0,
     "conclusion": "success"
   }
