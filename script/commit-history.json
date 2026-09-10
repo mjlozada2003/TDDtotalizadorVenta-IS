@@ -988,12 +988,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "07833bb2f4b8ee5fd856a4485ebc22f8541d7998",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T02:52:04.000Z",
       "message": "calculo de costo de envio con peso mayor a 200",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/07833bb2f4b8ee5fd856a4485ebc22f8541d7998"
     },
     "stats": {
       "total": 4,
@@ -1003,6 +1003,25 @@
     },
     "coverage": 98.72,
     "test_count": 51,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T03:11:40.000Z",
+      "message": "feat: mostrar detalle de precios",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 36,
+      "additions": 25,
+      "deletions": 11,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.72,
+    "test_count": 52,
     "failed_tests": 0,
     "conclusion": "success"
   }

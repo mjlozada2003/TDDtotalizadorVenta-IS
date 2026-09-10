@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio} from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -79,10 +79,10 @@ describe("Totalizador", () => {
 
   //TESTS PARTE 2
   it("debería mostrar el precio total con descuento de monto fijo por cliente recurrente, precio neto y categoría", ()=>{
-    expect(aplicarDescuentoFijo("Recurrente", 3001, "Alimentos")).toEqual(2901);
+    expect(beneficioDescuentoFijo("Recurrente", 3001, "Alimentos")).toEqual(100);
   });
   it("debería mostrar el precio total con descuento de monto fijo por cliente especial, precio neto y categoria", () =>{
-    expect(aplicarDescuentoFijo("Especial", 7001, "Electrónicos")).toEqual(6801);
+    expect(beneficioDescuentoFijo("Especial", 7001, "Electrónicos")).toEqual(200);
   });
   it("debería mostrar el beneficio de cliente normal en el costo de envío", ()=>{
     expect(beneficioCostoEnvio("Normal", 1000)).toEqual("(0%): 0$");
@@ -158,6 +158,9 @@ describe("Totalizador", () => {
   });
   it("deberia mostrar el costo de envio en base a un peso volumetrico mayor a 200", () => {
     expect(costoEnvio(201, 20)).toEqual(180);
+  });
+  it("deberia mostrar el costo de envio en base a un peso volumetrico 0-10", () => {
+    expect(costoEnvio(104.1, 20)).toEqual(160);
   });
 });
 

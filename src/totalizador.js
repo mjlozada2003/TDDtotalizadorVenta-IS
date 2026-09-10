@@ -33,14 +33,14 @@ function calcularPrecioTotal(cantidad, precioUnitario, codigo) {
   return precioNeto + parseFloat(impuesto.split(": ")[1]) - parseFloat(descuento.split(": ")[1]);
 }
 
-function aplicarDescuentoFijo(tipoCliente, precioNeto, categoria){
+function beneficioDescuentoFijo(tipoCliente, precioNeto, categoria){
   if(tipoCliente == "Recurrente" && precioNeto > 3000 && categoria == "Alimentos"){
-    return precioNeto - 100;
+    return 100;
   }
   if(tipoCliente == "Especial" && precioNeto > 7000 && categoria == "Electrónicos"){
-    return precioNeto - 200;
+    return 200;
   }
-  return precioNeto;
+  return 0;
 }
 
 function beneficioCostoEnvio(tipoCliente, costoEnvio){
@@ -81,4 +81,4 @@ function costoEnvio(pesoVolumetrico, cantidadProductos){
   return cantidadProductos * 9;
 }
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio };
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio };
