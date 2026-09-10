@@ -73,6 +73,7 @@ function descuentoAdicionalCategoria(categoria, precioNeto){
 
 function costoEnvio(pesoVolumetrico, cantidadProductos){
   if(pesoVolumetrico >= 0 && pesoVolumetrico <= 10) return cantidadProductos * 0;
+  if(pesoVolumetrico >= 11 && pesoVolumetrico <= 20) return cantidadProductos * 3.5;
 }
 
 export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio };
