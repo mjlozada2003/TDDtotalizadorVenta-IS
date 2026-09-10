@@ -900,9 +900,31 @@
     "testId": 34
   },
   {
-    "commitId": "HEAD",
+    "commitId": "5bca2f0a3de0dec52678b98b5e62ed351b2262a8",
     "commitName": "feat: impuesto adicional por categoria bebidas alcoholicas",
     "commitTimestamp": 1789005102164,
     "testId": 34
+  },
+  {
+    "numPassedTests": 32,
+    "failedTests": 1,
+    "numTotalTests": 33,
+    "timestamp": 1789005234594,
+    "success": false,
+    "testId": 35
+  },
+  {
+    "numPassedTests": 33,
+    "failedTests": 0,
+    "numTotalTests": 33,
+    "timestamp": 1789005260566,
+    "success": true,
+    "testId": 35
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: impuesto adicional por categoria material de escritorio",
+    "commitTimestamp": 1789005278030,
+    "testId": 35
   }
 ]
