@@ -37,21 +37,21 @@ function aplicarDescuentoFijo(tipoCliente, precioNeto, categoria){
   if(tipoCliente == "Recurrente" && precioNeto > 3000 && categoria == "Alimentos"){
     return precioNeto - 100;
   }
-  else{
-    if(tipoCliente == "Especial" && precioNeto > 7000 && categoria == "Electrónicos"){
-      return precioNeto - 200;
-    }
-    else return precioNeto;
+  if(tipoCliente == "Especial" && precioNeto > 7000 && categoria == "Electrónicos"){
+    return precioNeto - 200;
   }
+  return precioNeto;
 }
 
 function beneficioCostoEnvio(tipoCliente, costoEnvio){
   if(tipoCliente == "Recurrente"){
     return "(%0.5): " + (costoEnvio * 0.005) + "$";
   }
-  else{
-    return "(0%): " + 0 + "$";
+  if(tipoCliente == "Antiguo Recurrente"){
+    return "(%1): " + (costoEnvio * 0.01) + "$";
   }
+   return "(0%): " + 0 + "$";
 }
+
 
 export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo, beneficioCostoEnvio };
