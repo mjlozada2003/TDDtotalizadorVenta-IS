@@ -132,5 +132,11 @@ describe("Totalizador", () => {
    it("deberia mostrar el descuento adicional por categoria electronicos", () => {
     expect(descuentoAdicionalCategoria("Electronicos", 1000)).toEqual("(1%): 10")
   });
+   it("deberia mostrar el descuento adicional por categoria vestimenta", () => {
+    expect(descuentoAdicionalCategoria("Vestimenta", 1000)).toEqual("(0%): 0")
+  });
+   it("deberia mostrar el descuento adicional por categoria varios", () => {
+    expect(descuentoAdicionalCategoria("Varios", 1000)).toEqual("(0%): 0")
+  });
 });
 

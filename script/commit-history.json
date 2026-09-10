@@ -836,12 +836,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6c8a444dbfb3fca6e61a546678510c5c34a5227e",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T02:26:09.000Z",
       "message": "feat: descuento adicional por categoria electronicos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/6c8a444dbfb3fca6e61a546678510c5c34a5227e"
     },
     "stats": {
       "total": 6,
@@ -851,6 +851,25 @@
     },
     "coverage": 98.46,
     "test_count": 42,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T02:28:01.000Z",
+      "message": "test: descuento adicional por categoria varios",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 6,
+      "additions": 6,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.46,
+    "test_count": 44,
     "failed_tests": 0,
     "conclusion": "success"
   }

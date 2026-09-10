@@ -1128,9 +1128,31 @@
     "testId": 44
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6c8a444dbfb3fca6e61a546678510c5c34a5227e",
     "commitName": "feat: descuento adicional por categoria electronicos",
     "commitTimestamp": 1789007170752,
     "testId": 44
+  },
+  {
+    "numPassedTests": 43,
+    "failedTests": 0,
+    "numTotalTests": 43,
+    "timestamp": 1789007213587,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "numPassedTests": 44,
+    "failedTests": 0,
+    "numTotalTests": 44,
+    "timestamp": 1789007235019,
+    "success": true,
+    "testId": 45
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test: descuento adicional por categoria varios",
+    "commitTimestamp": 1789007282728,
+    "testId": 45
   }
 ]
