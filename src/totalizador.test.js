@@ -120,8 +120,11 @@ describe("Totalizador", () => {
   it("deberia mostrar el descuento adicional por categoria alimentos", () => {
     expect(descuentoAdicionalCategoria("Alimentos", 1000)).toEqual("(2%): 20")
   });
-   it("deberia mostrar el descuento adicional por categoria bebidas alcoholicas", () => {
+  it("deberia mostrar el descuento adicional por categoria bebidas alcoholicas", () => {
     expect(descuentoAdicionalCategoria("Bebidas alcoholicas", 1000)).toEqual("(0%): 0")
+  });
+  it("deberia mostrar el descuento adicional por categoria material de escritorio", () => {
+    expect(descuentoAdicionalCategoria("Material de escritorio", 1000)).toEqual("(1.5%): 15")
   });
 });
 

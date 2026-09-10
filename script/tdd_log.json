@@ -1054,9 +1054,31 @@
     "testId": 41
   },
   {
-    "commitId": "HEAD",
+    "commitId": "e2b73b436a07187b93be7d70b1eac2ec416c12d7",
     "commitName": "feat: descuento adicional por categoria bebidas alcoholicas",
     "commitTimestamp": 1789006852882,
     "testId": 41
+  },
+  {
+    "numPassedTests": 39,
+    "failedTests": 1,
+    "numTotalTests": 40,
+    "timestamp": 1789006917959,
+    "success": false,
+    "testId": 42
+  },
+  {
+    "numPassedTests": 40,
+    "failedTests": 0,
+    "numTotalTests": 40,
+    "timestamp": 1789006967685,
+    "success": true,
+    "testId": 42
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: descuento adicional por categoria material de escritorio",
+    "commitTimestamp": 1789006987372,
+    "testId": 42
   }
 ]
