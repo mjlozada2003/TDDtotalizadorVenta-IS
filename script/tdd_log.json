@@ -1202,9 +1202,31 @@
     "testId": 47
   },
   {
-    "commitId": "HEAD",
+    "commitId": "7720a10ea3144aaacba6a5ae6b11acecb56b069c",
     "commitName": "calculo de costo de envio con peso de 11-20",
     "commitTimestamp": 1789008187340,
     "testId": 47
+  },
+  {
+    "numPassedTests": 46,
+    "failedTests": 1,
+    "numTotalTests": 47,
+    "timestamp": 1789008230014,
+    "success": false,
+    "testId": 48
+  },
+  {
+    "numPassedTests": 47,
+    "failedTests": 0,
+    "numTotalTests": 47,
+    "timestamp": 1789008311645,
+    "success": true,
+    "testId": 48
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "calculo de costo de envio con peso de 21-40",
+    "commitTimestamp": 1789008337403,
+    "testId": 48
   }
 ]
