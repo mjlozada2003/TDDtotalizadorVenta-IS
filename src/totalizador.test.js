@@ -49,12 +49,7 @@ describe("Totalizador", () => {
     expect(descuentoAplicado(30000)).toEqual("(15%): 4500");
   });
 
-  it("deberia ver el precio total con impuestos y descuentos aplicados", () =>{
-    expect(calcularPrecioTotal(20,3,"TX")).toEqual(63.75);
-  });
-  it("deberia ver el precio total con impuestos y descuentos aplicados", () =>{
-    expect(calcularPrecioTotal(0,0,"UT")).toEqual(0);
-  });
+
 
   it("deberia mostrar un mensaje de error si la cantidad de items es invalida", () =>{
     expect(calcularPrecioNeto(-1, 3)).toEqual("Ingrese una cantidad de items válida");
@@ -168,5 +163,9 @@ describe("Totalizador", () => {
     expect(verificarVacios("5", "10", "")).toBe(true);
     expect(verificarVacios("5", "10", "20")).toBe(false);
   });
+
+  it("deberia mostrar el precio total con todos los descuentos de impuestos", ()=>{
+    expect(calcularPrecioTotal(20,6,"UT","Alimentos","Recurrente", 90)).toEqual(254.93);
+  })
 });
 

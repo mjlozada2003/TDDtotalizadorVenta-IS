@@ -30,13 +30,18 @@ function descuentoAplicado(precioNeto) {
     else return "(0%): 0";
 }
 
-function calcularPrecioTotal(cantidad, precioUnitario, codigo) {
+function calcularPrecioTotal(cantidad, precioUnitario, codigo, categoria, tipoCliente, pesoVolumetrico) {
   if(cantidad === 0 && precioUnitario != 0) return "Ingrese una cantidad de items válida";
   if(precioUnitario === 0 && cantidad != 0) return "Ingrese un precio válido";
   const precioNeto = calcularPrecioNeto(cantidad, precioUnitario);
-  const impuesto = impuestoAplicado(codigo, precioNeto);
-  const descuento = descuentoAplicado(precioNeto);
-  return precioNeto + parseFloat(impuesto.split(": ")[1]) - parseFloat(descuento.split(": ")[1]);
+  const impuesto = parseFloat(impuestoAplicado(codigo, precioNeto).split(": ")[1]);
+  const descuento = parseFloat(descuentoAplicado(precioNeto).split(": ")[1]);
+  const impuestoAdicional = parseFloat(impuestoAdicionalCategoria(categoria, precioNeto).split(": ")[1]);
+  const descuentoAdicional = parseFloat(descuentoAdicionalCategoria(categoria, precioNeto).split(": ")[1]);
+  const envio = costoEnvio(pesoVolumetrico, cantidad);
+  const envioConBeneficio = envio - parseFloat(beneficioCostoEnvio(tipoCliente, envio).split(": ")[1]);
+  const descuentoFijo = beneficioDescuentoFijo(tipoCliente, precioNeto, categoria);
+  return precioNeto + impuesto - descuento + impuestoAdicional - descuentoAdicional + envioConBeneficio - descuentoFijo;
 }
 
 function beneficioDescuentoFijo(tipoCliente, precioNeto, categoria){

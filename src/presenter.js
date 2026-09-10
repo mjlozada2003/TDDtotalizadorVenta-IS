@@ -28,6 +28,6 @@ totalizarForm.addEventListener("submit", (event) => {
     div.innerHTML += "<p> Costo de envio: " + costoEnvioBase + "</p>";
     div.innerHTML += "<p> Beneficio de descuento en costo de envio: " + beneficioCostoEnvio(tipoCliente.value, costoEnvio) + "</p>";
     div.innerHTML += "<p> Beneficio de descuento fijo: -" + beneficioDescuentoFijo(tipoCliente.value, precioNeto, categoriaProducto.value) + "</p>";
-    div.innerHTML += "<p> Precio total (descuentos e impuestos): " + calcularPrecioTotal(cantidadValue, precioUnitarioValue, codigoEstado.value) + "</p>";
+    div.innerHTML += "<p> Precio total (descuentos e impuestos): " + calcularPrecioTotal(cantidadValue, precioUnitarioValue, codigoEstado.value, categoriaProducto.value, tipoCliente.value, pesoValue) + "</p>";
   }
 });

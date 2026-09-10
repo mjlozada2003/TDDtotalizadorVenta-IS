@@ -1045,12 +1045,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "0dff0fd1162d1fc216d5471b44e9fbbbf0290f94",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T03:59:08.000Z",
       "message": "feat: refactorizar y verificar vacios",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/0dff0fd1162d1fc216d5471b44e9fbbbf0290f94"
     },
     "stats": {
       "total": 51,
@@ -1060,6 +1060,25 @@
     },
     "coverage": 97.59,
     "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T04:33:48.000Z",
+      "message": "feat: calcular precio total con impuestos",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 26,
+      "additions": 15,
+      "deletions": 11,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.86,
+    "test_count": 52,
     "failed_tests": 0,
     "conclusion": "success"
   }

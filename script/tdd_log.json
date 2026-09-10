@@ -1450,9 +1450,47 @@
     "testId": 55
   },
   {
-    "commitId": "HEAD",
+    "commitId": "0dff0fd1162d1fc216d5471b44e9fbbbf0290f94",
     "commitName": "feat: refactorizar y verificar vacios",
     "commitTimestamp": 1789012750264,
     "testId": 55
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 1,
+    "numTotalTests": 54,
+    "timestamp": 1789013228192,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1789013960622,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1789014107629,
+    "success": false,
+    "testId": 56
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1789014531626,
+    "success": true,
+    "testId": 56
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: calcular precio total con impuestos",
+    "commitTimestamp": 1789014829448,
+    "testId": 56
   }
 ]
