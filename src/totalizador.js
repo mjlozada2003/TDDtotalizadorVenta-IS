@@ -1,15 +1,11 @@
 function calcularPrecioNeto(cantidad, precioUnitario){
-    if(cantidad < 0 || !Number.isInteger(cantidad)) return "Ingrese una cantidad de items válida";
-    if(precioUnitario < 0) return "Ingrese un precio válido";
+    if(!Number.isInteger(cantidad)) return "Ingrese una cantidad de items válida";
     else return cantidad * precioUnitario;
 }
-function verificarVacios(cantidad, precioUnitario, pesoVolumetrico) {
-    if(cantidad === "" || precioUnitario === "" || pesoVolumetrico === ""){
-        return true;
-    }
-    if(Number.isNaN(cantidad) || Number.isNaN(precioUnitario) || Number.isNaN(pesoVolumetrico)){
-        return true;
-    }
+function verificarVaciosyNegativos(cantidad, precioUnitario, pesoVolumetrico) {
+    if(cantidad === "" || precioUnitario === "" || pesoVolumetrico === "") return true;
+    if(Number.isNaN(cantidad) || Number.isNaN(precioUnitario) || Number.isNaN(pesoVolumetrico)) return true;
+    if(cantidad < 0 || pesoVolumetrico < 0 || precioUnitario < 0) return true;
     return false;
 }
 
@@ -83,7 +79,6 @@ function descuentoAdicionalCategoria(categoria, precioNeto){
 }
 
 function costoEnvio(pesoVolumetrico, cantidadProductos){ 
-  if(pesoVolumetrico < 0) return "Ingresa un peso volumetrico valido";
   if(pesoVolumetrico >= 0 && pesoVolumetrico <= 10) return cantidadProductos * 0;
   if(pesoVolumetrico > 10 && pesoVolumetrico <= 20) return cantidadProductos * 3.5;
   if(pesoVolumetrico > 20 && pesoVolumetrico <= 40) return cantidadProductos * 5;
@@ -93,4 +88,4 @@ function costoEnvio(pesoVolumetrico, cantidadProductos){
   return cantidadProductos * 9;
 }
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarVacios, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio };
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarVaciosyNegativos, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio };

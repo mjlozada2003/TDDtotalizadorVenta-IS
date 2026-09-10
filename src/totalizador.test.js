@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarVacios, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio} from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarVaciosyNegativos, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -52,7 +52,7 @@ describe("Totalizador", () => {
 
 
   it("deberia mostrar un mensaje de error si la cantidad de items es invalida", () =>{
-    expect(calcularPrecioNeto(-1, 3)).toEqual("Ingrese una cantidad de items válida");
+    expect(verificarVaciosyNegativos(-20, 3,80)).toBe(true);
   });
   it("deberia mostrar un mensaje de error si la cantidad de items es invalida", () =>{
     expect(calcularPrecioTotal(0, 3, "TX")).toEqual("Ingrese una cantidad de items válida");
@@ -62,7 +62,7 @@ describe("Totalizador", () => {
   });
 
   it("deberia mostrar un mensaje de error si el precio unitario es negativo", () =>{
-    expect(calcularPrecioNeto(20, -3)).toEqual("Ingrese un precio válido");
+    expect(verificarVaciosyNegativos(20, -6,80)).toBe(true);
   });
   it("deberia mostrar un mensaje de error si el precio unitario es invalido", () =>{
     expect(calcularPrecioTotal(20, 0, "TX")).toEqual("Ingrese un precio válido");
@@ -154,14 +154,14 @@ describe("Totalizador", () => {
     expect(costoEnvio(104.1, 20)).toEqual(160);
   });
   it("debería mostrar un mensaje de error cuando ingrese un peso volumetrico negativo", ()=> {
-    expect(costoEnvio(-80, 20)).toEqual("Ingresa un peso volumetrico valido");
+    expect(verificarVaciosyNegativos(20, 6,-80)).toBe(true);
   });
 
   it("debería detectar campos vacíos antes de realizar el cálculo", () => {
-    expect(verificarVacios("", "10", "20")).toBe(true);
-    expect(verificarVacios("5", "", "20")).toBe(true);
-    expect(verificarVacios("5", "10", "")).toBe(true);
-    expect(verificarVacios("5", "10", "20")).toBe(false);
+    expect(verificarVaciosyNegativos("", "10", "20")).toBe(true);
+    expect(verificarVaciosyNegativos("5", "", "20")).toBe(true);
+    expect(verificarVaciosyNegativos("5", "10", "")).toBe(true);
+    expect(verificarVaciosyNegativos("5", "10", "20")).toBe(false);
   });
 
   it("deberia mostrar el precio total con todos los descuentos de impuestos", ()=>{

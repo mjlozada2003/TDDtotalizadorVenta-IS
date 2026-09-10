@@ -1488,9 +1488,95 @@
     "testId": 56
   },
   {
-    "commitId": "HEAD",
+    "commitId": "d4e7548a064310957a9a9f619b087a1b7ea7a5a6",
     "commitName": "feat: calcular precio total con impuestos",
     "commitTimestamp": 1789014829448,
     "testId": 56
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 4,
+    "numTotalTests": 52,
+    "timestamp": 1789015124570,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 3,
+    "numTotalTests": 52,
+    "timestamp": 1789015157343,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 48,
+    "failedTests": 4,
+    "numTotalTests": 52,
+    "timestamp": 1789015338763,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1789015379095,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1789015611560,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 51,
+    "failedTests": 1,
+    "numTotalTests": 52,
+    "timestamp": 1789015637627,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1789015757338,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 45,
+    "failedTests": 7,
+    "numTotalTests": 52,
+    "timestamp": 1789016101245,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 49,
+    "failedTests": 3,
+    "numTotalTests": 52,
+    "timestamp": 1789016123168,
+    "success": false,
+    "testId": 57
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1789016234666,
+    "success": true,
+    "testId": 57
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat:refactorizacion de vacios y negativos",
+    "commitTimestamp": 1789016381259,
+    "testId": 57
   }
 ]
