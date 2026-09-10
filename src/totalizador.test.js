@@ -81,6 +81,9 @@ describe("Totalizador", () => {
   it("debería mostrar el precio total con descuento de monto fijo por cliente recurrente, precio neto y categoría", ()=>{
     expect(aplicarDescuentoFijo("Recurrente", 3001, "Alimentos")).toEqual(2901);
   });
+  it("debería mostrar el precio total con descuento de monto fijo por cliente especial, precio neto y categoria", () =>{
+    expect(aplicarDescuentoFijo("Especial", 7001, "Electrónicos")).toEqual(6801);
+  })
 });
 
 

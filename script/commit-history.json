@@ -513,12 +513,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "a1a7f487e1f43dccd81be70fced21c69b1140c59",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T01:12:59.000Z",
       "message": "feat: descuento fijo por cliente recurrente, precio neto mayor a 3000 y categoria alimentos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/a1a7f487e1f43dccd81be70fced21c69b1140c59"
     },
     "stats": {
       "total": 50,
@@ -528,6 +528,25 @@
     },
     "coverage": 100,
     "test_count": 25,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T01:17:15.000Z",
+      "message": "feat: descuento fijo por cliente especial, precio neto mayor a 7000 y categoria electronicos",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 9,
+      "deletions": 0,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.62,
+    "test_count": 26,
     "failed_tests": 0,
     "conclusion": "success"
   }

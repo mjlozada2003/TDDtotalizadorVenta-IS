@@ -37,6 +37,12 @@ function aplicarDescuentoFijo(tipoCliente, precioNeto, categoria){
   if(tipoCliente == "Recurrente" && precioNeto > 3000 && categoria == "Alimentos"){
     return precioNeto - 100;
   }
+  else{
+    if(tipoCliente == "Especial" && precioNeto > 7000 && categoria == "Electrónicos"){
+      return precioNeto - 200;
+    }
+    else return precioNeto;
+  }
 }
 
 export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, aplicarDescuentoFijo };

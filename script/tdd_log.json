@@ -690,9 +690,39 @@
     "testId": 27
   },
   {
-    "commitId": "HEAD",
+    "commitId": "a1a7f487e1f43dccd81be70fced21c69b1140c59",
     "commitName": "feat: descuento fijo por cliente recurrente, precio neto mayor a 3000 y categoria alimentos",
     "commitTimestamp": 1789002780682,
     "testId": 27
+  },
+  {
+    "numPassedTests": 25,
+    "failedTests": 1,
+    "numTotalTests": 26,
+    "timestamp": 1789002883020,
+    "success": false,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1789002921881,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "numPassedTests": 26,
+    "failedTests": 0,
+    "numTotalTests": 26,
+    "timestamp": 1789002995072,
+    "success": true,
+    "testId": 28
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: descuento fijo por cliente especial, precio neto mayor a 7000 y categoria electronicos",
+    "commitTimestamp": 1789003036821,
+    "testId": 28
   }
 ]
