@@ -1,4 +1,4 @@
-import { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio, beneficioCostoEnvio, beneficioDescuentoFijo } from "./totalizador.js";
+import { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarVacios, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio, beneficioCostoEnvio, beneficioDescuentoFijo } from "./totalizador.js";
 
 const cantidad = document.querySelector("#cantidad");
 const precioUnitario = document.querySelector("#precio-item");
@@ -17,15 +17,17 @@ totalizarForm.addEventListener("submit", (event) => {
   const precioNeto = calcularPrecioNeto(cantidadValue, precioUnitarioValue);
   const pesoValue = Number.parseFloat(pesoVolumetrico.value);
   const costoEnvioBase = costoEnvio(pesoValue, cantidadValue);
-  verificarCodigo(codigoEstado.value);
-
-  div.innerHTML = "<p> Precio neto (" + cantidadValue + "*" + precioUnitarioValue + "): " + precioNeto + "</p>";
-  div.innerHTML += "<p> Descuento " + descuentoAplicado(precioNeto) + "</p>";
-  div.innerHTML += "<p> Impuesto para " + impuestoAplicado(codigoEstado.value, precioNeto) + "</p>";
-  div.innerHTML += "<p> Impuesto adicional por categoria " + impuestoAdicionalCategoria(categoriaProducto.value, precioNeto) + "</p>";
-  div.innerHTML += "<p> Descuento adicional por categoria " + descuentoAdicionalCategoria(categoriaProducto.value, precioNeto) + "</p>";
-  div.innerHTML += "<p> Costo de envio: " + costoEnvioBase + "</p>";
-  div.innerHTML += "<p> Beneficio de descuento en costo de envio: " + beneficioCostoEnvio(tipoCliente.value, costoEnvio) + "</p>";
-  div.innerHTML += "<p> Beneficio de descuento fijo: -" + beneficioDescuentoFijo(tipoCliente.value, precioNeto, categoriaProducto.value) + "</p>";
-  div.innerHTML += "<p> Precio total (descuento e impuesto): " + calcularPrecioTotal(cantidadValue, precioUnitarioValue, codigoEstado.value) + "</p>";
+  if(verificarVacios(cantidadValue, precioUnitarioValue, pesoValue))
+    div.innerHTML = "<p> Ingresa todos los datos faltantes </p>";
+  else{
+    div.innerHTML = "<p> Precio neto (" + cantidadValue + "*" + precioUnitarioValue + "): " + precioNeto + "</p>";
+    div.innerHTML += "<p> Descuento " + descuentoAplicado(precioNeto) + "</p>";
+    div.innerHTML += "<p> Impuesto para " + impuestoAplicado(codigoEstado.value, precioNeto) + "</p>";
+    div.innerHTML += "<p> Impuesto adicional por categoria " + impuestoAdicionalCategoria(categoriaProducto.value, precioNeto) + "</p>";
+    div.innerHTML += "<p> Descuento adicional por categoria " + descuentoAdicionalCategoria(categoriaProducto.value, precioNeto) + "</p>";
+    div.innerHTML += "<p> Costo de envio: " + costoEnvioBase + "</p>";
+    div.innerHTML += "<p> Beneficio de descuento en costo de envio: " + beneficioCostoEnvio(tipoCliente.value, costoEnvio) + "</p>";
+    div.innerHTML += "<p> Beneficio de descuento fijo: -" + beneficioDescuentoFijo(tipoCliente.value, precioNeto, categoriaProducto.value) + "</p>";
+    div.innerHTML += "<p> Precio total (descuentos e impuestos): " + calcularPrecioTotal(cantidadValue, precioUnitarioValue, codigoEstado.value) + "</p>";
+  }
 });

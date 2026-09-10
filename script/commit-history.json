@@ -1026,12 +1026,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "bc8836632b60e319bea5363401b2066285473eb4",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T03:20:55.000Z",
       "message": "feat: verificar pesos positivos",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/bc8836632b60e319bea5363401b2066285473eb4"
     },
     "stats": {
       "total": 6,
@@ -1040,6 +1040,25 @@
       "date": "2026-09-10"
     },
     "coverage": 98.75,
+    "test_count": 53,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T03:59:08.000Z",
+      "message": "feat: refactorizar y verificar vacios",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 31,
+      "deletions": 20,
+      "date": "2026-09-10"
+    },
+    "coverage": 97.59,
     "test_count": 53,
     "failed_tests": 0,
     "conclusion": "success"

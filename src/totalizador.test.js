@@ -1,4 +1,4 @@
-import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio} from "./totalizador.js";
+import {calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarVacios, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio} from "./totalizador.js";
 
 describe("Totalizador", () => {
   it("deberia calcular el precio neto sin descuentos ni impuestos", () => {
@@ -54,10 +54,6 @@ describe("Totalizador", () => {
   });
   it("deberia ver el precio total con impuestos y descuentos aplicados", () =>{
     expect(calcularPrecioTotal(0,0,"UT")).toEqual(0);
-  });
-
-  it("deberia mostrar un mensaje de error si el codigo de estado no es seleccionado", () =>{
-    expect(verificarCodigo("")).toEqual("Seleccione un código de estado válido");
   });
 
   it("deberia mostrar un mensaje de error si la cantidad de items es invalida", () =>{
@@ -164,6 +160,13 @@ describe("Totalizador", () => {
   });
   it("debería mostrar un mensaje de error cuando ingrese un peso volumetrico negativo", ()=> {
     expect(costoEnvio(-80, 20)).toEqual("Ingresa un peso volumetrico valido");
+  });
+
+  it("debería detectar campos vacíos antes de realizar el cálculo", () => {
+    expect(verificarVacios("", "10", "20")).toBe(true);
+    expect(verificarVacios("5", "", "20")).toBe(true);
+    expect(verificarVacios("5", "10", "")).toBe(true);
+    expect(verificarVacios("5", "10", "20")).toBe(false);
   });
 });
 

@@ -3,8 +3,14 @@ function calcularPrecioNeto(cantidad, precioUnitario){
     if(precioUnitario < 0) return "Ingrese un precio válido";
     else return cantidad * precioUnitario;
 }
-function verificarCodigo(codigo) {
-    if(codigo === "") return "Seleccione un código de estado válido";
+function verificarVacios(cantidad, precioUnitario, pesoVolumetrico) {
+    if(cantidad === "" || precioUnitario === "" || pesoVolumetrico === ""){
+        return true;
+    }
+    if(Number.isNaN(cantidad) || Number.isNaN(precioUnitario) || Number.isNaN(pesoVolumetrico)){
+        return true;
+    }
+    return false;
 }
 
 function impuestoAplicado(codigo, precioNeto) {
@@ -82,4 +88,4 @@ function costoEnvio(pesoVolumetrico, cantidadProductos){
   return cantidadProductos * 9;
 }
 
-export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarCodigo, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio };
+export { calcularPrecioNeto, impuestoAplicado, descuentoAplicado, calcularPrecioTotal, verificarVacios, beneficioDescuentoFijo, beneficioCostoEnvio, impuestoAdicionalCategoria, descuentoAdicionalCategoria, costoEnvio };

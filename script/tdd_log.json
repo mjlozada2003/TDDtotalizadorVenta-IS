@@ -1388,9 +1388,71 @@
     "testId": 54
   },
   {
-    "commitId": "HEAD",
+    "commitId": "bc8836632b60e319bea5363401b2066285473eb4",
     "commitName": "feat: verificar pesos positivos",
     "commitTimestamp": 1789010456440,
     "testId": 54
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1789010758701,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 1,
+    "failedTests": 0,
+    "numTotalTests": 1,
+    "timestamp": 1789010767507,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 0,
+    "numTotalTests": 52,
+    "timestamp": 1789010836005,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1789012374372,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1789012465295,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 52,
+    "failedTests": 1,
+    "numTotalTests": 53,
+    "timestamp": 1789012584054,
+    "success": false,
+    "testId": 55
+  },
+  {
+    "numPassedTests": 53,
+    "failedTests": 0,
+    "numTotalTests": 53,
+    "timestamp": 1789012610110,
+    "success": true,
+    "testId": 55
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "feat: refactorizar y verificar vacios",
+    "commitTimestamp": 1789012750264,
+    "testId": 55
   }
 ]
