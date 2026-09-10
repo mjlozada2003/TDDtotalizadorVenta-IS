@@ -105,5 +105,8 @@ describe("Totalizador", () => {
   it("deberia mostrar el impuesto adicional por categoria material de escritorio", ()=>{
     expect(impuestoAdicionalCategoria("Material de escritorio", 1000)).toEqual("(0%): 0")
   });
+  it("deberia mostrar el impuesto adicional por categoria muebles", ()=> {
+    expect(impuestoAdicionalCategoria("Muebles", 1000)).toEqual("(3%): 30")
+  });
 });
 

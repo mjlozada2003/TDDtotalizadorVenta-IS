@@ -665,12 +665,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "5645f6e9b56af65628eac0a87a61678dffcd405d",
     "author": "Maria Lozada",
     "commit": {
       "date": "2026-09-10T01:54:36.000Z",
       "message": "feat: impuesto adicional por categoria material de escritorio",
-      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/5645f6e9b56af65628eac0a87a61678dffcd405d"
     },
     "stats": {
       "total": 7,
@@ -680,6 +680,25 @@
     },
     "coverage": 98.08,
     "test_count": 33,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "Maria Lozada",
+    "commit": {
+      "date": "2026-09-10T02:04:24.000Z",
+      "message": "feat: impuesto adicional por categoria muebles",
+      "url": "https://github.com/mjlozada2003/TDDtotalizadorVenta-IS/commit/HEAD"
+    },
+    "stats": {
+      "total": 16,
+      "additions": 15,
+      "deletions": 1,
+      "date": "2026-09-10"
+    },
+    "coverage": 98.15,
+    "test_count": 34,
     "failed_tests": 0,
     "conclusion": "success"
   }
